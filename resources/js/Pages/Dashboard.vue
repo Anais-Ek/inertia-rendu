@@ -15,6 +15,18 @@ import { Head } from '@inertiajs/inertia-vue3';
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <div class="p-6 text-gray-900">Statistiques</div>
+
+                    <div class="m-10 px-70 text-xl text-gray-400 col-xs-6">
+                        <img src="/clients.png" class="">
+                        <a  :href="route('clients.index')">
+                            Voir tous les clients</a>  
+                            
+                    </div>
+                    <div class="m-10 px-70 text-xl text-gray-400 col-xs-6">
+                        <img src="/projet.png" class="">
+                        <a :href="route('projets.index')">Voir tous les projets</a>
+                    </div>      
+                        
                 </div>
             </div>
         </div>
